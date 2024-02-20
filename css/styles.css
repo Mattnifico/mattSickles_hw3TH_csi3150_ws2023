@@ -1,0 +1,570 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap);
+
+* {
+  /*reset browser's default styles in the nest 3 lines */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", "Courier New", Courier, monospace;
+}
+
+img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+header img {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 20%;
+  height: 40%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+header h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: azure;
+  text-align: center;
+  font-size: 8rem;
+  text-shadow: 0 0 5px black;
+}
+
+header p {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: azure;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 15px;
+  text-shadow: 0 0 5px black;
+}
+
+header span {
+  position: absolute;
+  margin-top: 30px;
+  top: 70%;
+  left: 52.5%;
+  transform: translate(-50%, -50%);
+  color: azure;
+  text-align: center;
+  text-shadow: 0 0 5px black;
+  scale: 4;
+}
+
+/* end of header, start of enticement */
+
+.enticement img {
+  position: absolute;
+  top: 61.9rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.enticement .cols {
+  display: flex;
+  overflow: hidden;
+}
+
+.enticement .cols .left{
+  width: 38%;
+}
+
+.enticement .cols .left h1 {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.enticement .cols .right{
+  width: 95%;
+  margin-top: 0.5rem;
+}
+
+.enticement .cols .right p {
+  position: relative;
+  color: white;
+  text-shadow: 0 0 5px black;
+  font-size: 1.75rem;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 1rem;
+}
+
+.enticement .cols .right button{
+  position: relative;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 15%;
+  background-color: orange;
+  margin-left: 25px;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  transition: background 0.3s ease;
+}
+
+.enticement .cols .right button:hover{
+    background: white;
+    cursor: pointer;
+}
+
+/* end of enticement, start of attractions */
+
+.attractions img{
+  position: absolute;
+  top: 123.5rem;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.attractions h1{
+  position: absolute;
+  text-shadow: 0 0 5px black;
+  left: 0.5%;
+  top: 207%;
+  color: white;
+  font-size: 4rem;
+  overflow: hidden;
+}
+
+.attractions .cols{
+  display: flex;
+  overflow: hidden;
+}
+
+.attractions .cols .left{
+  width: 33%;
+}
+
+.attractions .cols .left img{
+  height: 40rem;
+  width: 30rem;
+  margin: 40px;
+  top: 220%;
+}
+
+.attractions .cols .left h3{
+  color: white;
+  position: relative;
+  top: 40rem;
+  left: 1rem;
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 1.25rem;
+  font-size: 3rem;
+  text-shadow: 0 0 5px black;
+}
+
+.attractions .cols .left span{
+  position: relative;
+  scale: 4;
+  top: 40.5rem;
+  left: 5rem;
+  color: azure;
+  text-align: center;
+  text-shadow: 0 0 5px black;
+}
+
+.attractions .cols .center{
+  width: 34%;
+}
+
+.attractions .cols .center img{
+  height: 40rem;
+  width: 30rem;
+  margin: 40px;
+  top: 220%;
+}
+
+.attractions .cols .center h3{
+  color: white;
+  position: relative;
+  top: 40rem;
+  left: 1rem;
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 1.25rem;
+  font-size: 3rem;
+  text-shadow: 0 0 5px black;
+}
+
+.attractions .cols .center span{
+  position: relative;
+  scale: 4;
+  top: 40.5rem;
+  left: 5rem;
+  color: azure;
+  text-align: center;
+  text-shadow: 0 0 5px black;
+}
+
+.attractions .cols .right{
+  width: 33%;
+}
+
+.attractions .cols .right img{
+  height: 40rem;
+  width: 30rem;
+  margin: 40px;
+  top: 220%;
+}
+
+.attractions .cols .right h3{
+  color: white;
+  position: relative;
+  top: 40rem;
+  left: 1rem;
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 1.25rem;
+  font-size: 3rem;
+  text-shadow: 0 0 5px black;
+}
+
+.attractions .cols .right span{
+  position: relative;
+  scale: 4;
+  top: 40.5rem;
+  left: 5rem;
+  color: azure;
+  text-align: center;
+  text-shadow: 0 0 5px black;
+}
+
+.attractions button{
+  position: relative;
+  top: 45rem;
+  left: 43.5%;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 15%;
+  background-color: white;
+  font-size: 1.3rem;
+  font-weight: 800;
+  transition: background 0.3s ease;
+}
+
+.attractions button:hover{
+    background: orange;
+    cursor: pointer;
+}
+
+/* end of attractions, start of attractions2 */
+
+.attractions2 img {
+  position: absolute;
+  top: 185rem;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.attractions2 .cols {
+  display: flex;
+  margin-right: 1%;
+}
+
+.attractions2 .cols .left{
+  width: 100%;
+}
+
+.attractions2 .cols .left h1 {
+  color: white;
+  position: relative;
+  top: 50rem;
+  left: 1rem;
+  padding: 1.25rem;
+  font-size: 5rem;
+  text-shadow: 0 0 5px black;
+}
+
+.attractions2 .cols .right{
+  width: 70%;
+  margin-top: 5px;
+}
+
+.attractions2 .cols .right p{
+  color: white;
+  position: relative;
+  top: 50rem;
+  left: 1rem;
+  padding: 1.25rem;
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px black;
+}
+
+.attractions2 .cols .right h3{
+  color: white;
+  position: relative;
+  top: 50rem;
+  left: 1rem;
+  padding: 1.25rem;
+  font-size: 3rem;
+  text-shadow: 0 0 5px black;
+}
+
+/* end of attractions2, start of stats */
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.stats img {
+  z-index: 0;
+  position: absolute;
+  top: 246.5rem;
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  overflow: hidden;
+}
+
+.stats .entries{
+  display: flex;
+}
+
+.stats h1 {
+  top: 53.5rem;
+  margin: 50px;
+  position: relative;
+  background-color: orange;
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 65px;
+  font-size: 5rem;
+}
+
+.stats h1 span {
+  font-size: 2.5rem;
+  color: #888;
+  display: block;
+
+}
+
+
+/* end of stats, start of testimonial */
+
+.testimonial{
+  position: absolute;
+  top: 277.5rem;
+  overflow: hidden;
+}
+
+.testimonial img{
+  height: 70vh;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.testimonial .profilePic{
+  position: relative;
+  height: 10rem;
+  width: 10rem;
+  top: -37rem;
+  left: 55rem;
+  border-radius: 50%;
+}
+
+.testimonial p{
+  position: relative;
+  top: -32.5rem;
+  color: white;
+  font-size: 24px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.testimonial h3{
+  position: relative;
+  top: -30rem;
+  color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+/* end of testimonial, start of photos */
+
+.photos{
+  position: absolute;
+  top: 212.25rem;
+}
+
+.photos .rightChev span{
+  position: relative;
+  color: orange;
+  scale: 10;
+  top: 87.5rem;
+  left: 115rem;
+}
+
+.photos .leftChev span{
+  position: relative;
+  color: orange;
+  scale: 10;
+  top: 87.5rem;
+  left: 3rem;
+}
+
+.photos .images{
+  display: flex;
+}
+
+.photos .images img{
+  position: relative;
+  top: 108.65rem;
+  width: 25%;
+  height: 70vh;
+  object-fit: cover;
+}
+
+/* end of photos, start of contactUs */
+
+.contactUs{
+  position: absolute;
+  top: 364.2rem;
+}
+
+.contactUs img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.contactUs .cols{
+  display: flex;
+}
+
+.contactUs .cols .left{
+  width: 50%;
+}
+
+.contactUs .cols .left h1{
+  position: absolute;
+  top: 4rem;
+  font-size: 5rem;
+  margin-left: 4.4rem;
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+
+.contactUs .cols .left p{
+  position: relative;
+  top: -49rem;
+  font-size: 2rem;
+  margin-left: 5rem;
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+.contactUs .cols .left .images{
+  display: flex;
+}
+
+.contactUs .cols .left .images img{
+  position: relative;
+  top: -47rem;
+  left: 3rem;
+  height: 3rem;
+  width: 3rem;
+  margin: 1rem;
+}
+
+.contactUs .cols .right{
+  width: 50%;
+}
+
+.contactUs .cols .right input{
+  position: relative;
+  display: block;
+  outline: none;
+  top: -50rem;
+  scale: 2.5;
+  margin-left: 16rem;
+  margin-bottom: 4rem;
+  font-size: 1rem;
+  width: 20rem;
+  height: 2rem;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 5px;
+}
+
+.contactUs .cols .right .bigInput input{
+  position: absolute;
+  display: block;
+  outline: none;
+  top: 29rem;
+  scale: 2.5;
+  margin-left: 16rem;
+  margin-bottom: 4rem;
+  font-size: 1rem;
+  width: 20rem;
+  height: 8rem;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.contactUs .cols .right input::placeholder {
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+.contactUs .cols .right button{
+  position: absolute;
+  display: block;
+  scale: 2;
+  top: 45rem;
+  margin-left: 3.95rem;
+  width: 6rem;
+  height: 2rem;
+  transition: background 0.3s ease;
+  background-color: orange;
+  border: none;
+}
+
+.contactUs .cols .right button:hover{
+    background: white;
+    cursor: pointer;
+}
